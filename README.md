@@ -1,2 +1,0 @@
-# Reservia
-Projet OpenClassRoom
