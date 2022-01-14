@@ -1,6 +1,8 @@
 :root {
     --gray: #F2F2F2;
+    --blue-light: #DEEBFF;
     --blue: #0065FC;
+    --blue-hover: #0047b1;
 }
 * {
     box-sizing: border-box;
@@ -73,4 +75,8 @@ main {
     border-radius: 0px 12px 12px 0px;
     font-weight: 600;
     padding: 0em 1em;
+    transition: background .2s;
+}
+.input-group button:hover {
+    background-color: var(--blue-hover);
 }
