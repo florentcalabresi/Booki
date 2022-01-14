@@ -1,0 +1,76 @@
+:root {
+    --gray: #F2F2F2;
+    --blue: #0065FC;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    background-color: white;
+    margin: 0em 3em 3em 3em;
+}
+.logo {
+    margin-top: 3em;
+    width: 10em;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: .5em 0;
+}
+h4,h5,h6 {
+    color: gray;
+    margin-bottom: .8em;
+}
+header {
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-between;
+}
+header ul {
+    display: flex;
+    margin: 0;
+}
+header ul li {
+    list-style: none;
+    margin: 0 5em 0 0;
+    padding: 3.5em 2em 0em;
+}
+header ul li a {
+    color: #303030;
+    font-weight: 700;
+    text-decoration: none;
+}
+header ul:last-child li:nth-child(3) a {
+    color: var(--blue);
+}
+header ul li.active {
+    border-top: 2px solid var(--blue);
+}
+header ul li.active a {
+    color: var(--blue);
+}
+main {
+    margin: 2em 0;
+}
+.input-group {
+    display: flex;
+    margin: 1em 0
+}
+.input-group i {
+    background: var(--gray);
+    padding: 14px;
+    border-radius: 12px 0px 0px 12px;
+}
+.input-group input {
+    border: 1px solid var(--gray);
+    font-weight: 600;
+    padding: 0em 1.2em;
+}
+.input-group button {
+    background: var(--blue);
+    color: white;
+    border: none;
+    border-radius: 0px 12px 12px 0px;
+    font-weight: 600;
+    padding: 0em 1em;
+}
