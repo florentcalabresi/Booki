@@ -4,26 +4,25 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Reservia</title>
+        <title>Booki</title>
 
         <link rel="stylesheet" href="assets/css/all.min.css"> <!-- Import FontAwesome -->
         <link rel="stylesheet" href="assets/css/normalize.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <a href="/">
-                <img class="logo" alt="logo" src="assets/images/logo/Reservia.svg">
+                <img class="logo" alt="logo" src="assets/images/logo/Booki.png">
             </a>
             <nav>
                 <ul>
                     <li class="active"><a href="#hebergements">Hébergements</a></li>
                     <li><a href="#activity">Activités</a></li>
-                    <li><a href="#signup">S'inscrire</a></li>
                 </ul>
             </nav>
         </header>
@@ -34,6 +33,111 @@
                 <i class="fas fa-map-marker-alt"></i>
                 <input type="text" value="Marseille, France" name="search">
                 <button type="submit">Rechercher</button>
+            </div>
+            <div class="filter">
+                <b>Filtres</b>
+                <ul>
+                    <li>
+                        <div class="circle-icon"><i class="fas fa-money-bill-wave-alt"></i></div>
+                        <b>Économique</b>
+                    </li>
+                    <li>
+                        <div class="circle-icon"><i class="fas fa-male"></i></div>
+                        <b>Familial</b>
+                    </li>
+                    <li>
+                        <div class="circle-icon"><i class="fas fa-heart"></i></div>
+                        <b>Romantique</b>
+                    </li>
+                    <li>
+                        <div class="circle-icon"><i class="fas fa-dog"></i></div>
+                        <b>Animaux autorisés</b>
+                    </li>
+                </ul>
+            </div>
+            <div class="infos">
+                <div class="circle-icon inverted"><i class="fas fa-info"></i></div>
+                Plus de 500 logements sont disponibles dans cette ville
+            </div>
+            <div class="grid">
+                <div class="column left">
+                    <div class="card-section">
+                        <h3>Hébergements à Marseille</h3>
+                        <div class="card-group">
+                            <div class="card-item">
+                                <div class="head" style="background: url('assets/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg');"></div>
+                                <div class="body">
+                                    <div class="title">Auberge La Cannebière</div>
+                                    <div class="subtitle">Nuit à partir de 25<b>€</b></div>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="head" style="background: url('assets/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg');"></div>
+                                <div class="body">
+                                    <div class="title">Hôtel du port</div>
+                                    <div class="subtitle">Nuit à partir de 52<b>€</b></div>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="head" style="background: url('assets/images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg');"></div>
+                                <div class="body">
+                                    <div class="title">Hôtel Les mouettes</div>
+                                    <div class="subtitle">Nuit à partir de 76<b>€</b></div>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="head" style="background: url('assets/images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg');"></div>
+                                <div class="body">
+                                    <div class="title">Hôtel de la mer</div>
+                                    <div class="subtitle">Nuit à partir de 46<b>€</b></div>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="head" style="background: url('assets/images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg');"></div>
+                                <div class="body">
+                                    <div class="title">Auberge Le Panier</div>
+                                    <div class="subtitle">Nuit à partir de 23<b>€</b></div>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="head" style="background: url('assets/images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg');"></div>
+                                <div class="body">
+                                    <div class="title">Hôtel chez Amina</div>
+                                    <div class="subtitle">Nuit à partir de 96<b>€</b></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br><br>
+                        <a class="link" href="#">Afficher plus</a>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="card-section">
+                        <h3>Les plus populaires</h3>
+                        <div class="card-group inline">
+                            <div class="card-item">
+                                <div class="head" style="background: url('assets/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg');"></div>
+                                <div class="body">
+                                    <div class="title">Hôtel Le soleil du matin</div>
+                                    <div class="subtitle">Nuit à partir de 128<b>€</b></div>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="head" style="background: url('assets/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg');"></div>
+                                <div class="body">
+                                    <div class="title">Au coeur de l'eau Chambres d'hôtes</div>
+                                    <div class="subtitle">Nuit à partir de 71<b>€</b></div>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="head" style="background: url('assets/images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg');"></div>
+                                <div class="body">
+                                    <div class="title">Hôtel Tout bleu et Blanc</div>
+                                    <div class="subtitle">Nuit à partir de 68<b>€</b></div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
             </div>
         </main>
     </body>
