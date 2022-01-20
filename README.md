@@ -1,2 +1,2 @@
-# Reservia
+# Booki
 Projet OpenClassRoom
