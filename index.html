@@ -27,12 +27,14 @@
             </nav>
         </header>
         <main>
-            <h3>Trouvez votre hébérgement pour des vacances de rêve</h3>
-            <h4>En plein centre ville ou en pleine nature</h4>
+            <div class="infos-head">
+                <h3>Trouvez votre hébérgement pour des vacances de rêve</h3>
+                <h4>En plein centre ville ou en pleine nature</h4>
+            </div>
             <div class="input-group">
                 <i class="fas fa-map-marker-alt"></i>
                 <input type="text" value="Marseille, France" name="search">
-                <button type="submit">Rechercher</button>
+                <button type="submit"><span><i class="fas fa-search"></i>Rechercher</span></button>
             </div>
             <div class="filter">
                 <b>Filtres</b>
@@ -62,10 +64,10 @@
             <br><br>
             <div class="card-group two">
                 <div class="column-1">
-                    <div class="card-section">
+                    <section class="card-section">
                         <h3>Hébergements à Marseille</h3>
                         <div class="card-group">
-                            <div class="card-item">
+                            <article class="card-item">
                                 <div class="head" style="background: url('assets/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg');"></div>
                                 <div class="body">
                                     <div class="content">
@@ -82,8 +84,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card-item">
+                            </article>
+                            <article class="card-item">
                                 <div class="head" style="background: url('assets/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg');"></div>
                                 <div class="body">
                                     <div class="content">
@@ -100,8 +102,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card-item">
+                            </article>
+                            <article class="card-item">
                                 <div class="head" style="background: url('assets/images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg');"></div>
                                 <div class="body">
                                     <div class="content">
@@ -118,8 +120,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card-item">
+                            </article>
+                            <article class="card-item">
                                 <div class="head" style="background: url('assets/images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg');"></div>
                                 <div class="body">
                                     <div class="content">
@@ -136,8 +138,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card-item">
+                            </article>
+                            <article class="card-item">
                                 <div class="head" style="background: url('assets/images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg');"></div>
                                 <div class="body">
                                     <div class="content">
@@ -154,8 +156,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card-item">
+                            </article>
+                            <article class="card-item">
                                 <div class="head" style="background: url('assets/images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg');"></div>
                                 <div class="body">
                                     <div class="content">
@@ -172,20 +174,20 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </article>
                         </div>
                         <br><br>
                         <a class="link" href="#">Afficher plus</a>
-                    </div>
+                    </section>
                 </div>
                 <div class="column-1">
-                    <div class="card-section">
+                    <section class="card-section">
                         <div class="title">
                             <h3>Les plus populaires</h3>
                             <i class="fas fa-chart-line"></i>
                         </div>
                         <div class="card-group inline">
-                            <div class="card-item">
+                            <article class="card-item">
                                 <div class="head" style="background: url('assets/images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');"></div>
                                 <div class="body">
                                     <div class="content">
@@ -202,8 +204,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card-item">
+                            </article>
+                            <article class="card-item">
                                 <div class="head" style="background: url('assets/images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg');"></div>
                                 <div class="body">
                                     <div class="content">
@@ -220,8 +222,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card-item">
+                            </article>
+                            <article class="card-item">
                                 <div class="head" style="background: url('assets/images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg');"></div>
                                 <div class="body">
                                     <div class="content">
@@ -238,59 +240,61 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </article>
                         </div>
-                    </div>
+                    </section>
                 </div>
             </div>
             <br><br>
-            <h3>Activités à Marseille</h3>
-            <div class="card-group four">
-                <div class="column-1">
-                    <div class="card-item">
-                        <div class="head" style="background: url('assets/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');"></div>
-                        <div class="body">
-                            <div class="title">Vieux Port</div>
-                        </div>
+            <section class="activities">
+                <h3>Activités à Marseille</h3>
+                <div class="card-group four">
+                    <div class="column-1">
+                        <article class="card-item">
+                            <div class="head" style="background: url('assets/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');"></div>
+                            <div class="body">
+                                <div class="title">Vieux Port</div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="column-2">
+                        <article class="card-item">
+                            <div class="head" style="background: url('assets/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg');"></div>
+                            <div class="body">
+                                <div class="title">Fort de Pomègues</div>
+                            </div>
+                        </article>
+                        <article class="card-item">
+                            <div class="head" style="background: url('assets/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg');"></div>
+                            <div class="body">
+                                <div class="title">Îles du Frioul</div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="column-1">
+                        <article class="card-item">
+                            <div class="head" style="background: url('assets/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg');"></div>
+                            <div class="body">
+                                <div class="title">Parc Naitonal des Calanques</div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="column-2">
+                        <article class="card-item">
+                            <div class="head" style="background: url('assets/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg');"></div>
+                            <div class="body">
+                                <div class="title">Notre-Dame-de-la-Garde</div>
+                            </div>
+                        </article>
+                        <article class="card-item">
+                            <div class="head" style="background: url('assets/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg');"></div>
+                            <div class="body">
+                                <div class="title">Parc Longchamp</div>
+                            </div>
+                        </article>
                     </div>
                 </div>
-                <div class="column-2">
-                    <div class="card-item">
-                        <div class="head" style="background: url('assets/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg');"></div>
-                        <div class="body">
-                            <div class="title">Fort de Pomègues</div>
-                        </div>
-                    </div>
-                    <div class="card-item">
-                        <div class="head" style="background: url('assets/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg');"></div>
-                        <div class="body">
-                            <div class="title">Îles du Frioul</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="column-1">
-                    <div class="card-item">
-                        <div class="head" style="background: url('assets/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg');"></div>
-                        <div class="body">
-                            <div class="title">Parc Naitonal des Calanques</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="column-2">
-                    <div class="card-item">
-                        <div class="head" style="background: url('assets/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg');"></div>
-                        <div class="body">
-                            <div class="title">Notre-Dame-de-la-Garde</div>
-                        </div>
-                    </div>
-                    <div class="card-item">
-                        <div class="head" style="background: url('assets/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg');"></div>
-                        <div class="body">
-                            <div class="title">Parc Longchamp</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </section>
         </main>
     </body>
     <footer>
