@@ -160,6 +160,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
 }
 .card-item {
     background: white;
@@ -183,6 +184,7 @@ main {
 .card-item .subtitle {
     font-size: 12px;
     color: black;
+    margin: 0;
 }
 .card-item .body {
     padding: 12px;
