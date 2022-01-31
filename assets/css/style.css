@@ -274,6 +274,34 @@ footer .menu-group .menu-items ul li a {
     font-weight:500;
     color: black;
 }
+@media only screen and (max-width: 1024px) {
+    .card-group.two {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-group {
+        grid-template-columns: repeat(2, 6fr);
+    }
+    .card-group.four {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .input-group button,
+    .input-group i {
+        border-radius: 12px !important;
+    }
+    .input-group button span {
+        font-family: "Font Awesome 5 Free";
+        display: block;
+        visibility: hidden;
+        position: relative;
+        width: 15px;
+        height: 20px;
+    }
+    .input-group button span:before {
+        content: "\f002";
+        visibility: initial;
+    }
+}
 @media only screen and (max-width: 600px) {
     footer {
         background: var(--gray);
