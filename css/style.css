@@ -20,15 +20,15 @@ a.link {
     padding: 100px 0;
 }
 .logo {
-    margin-top: 3em;
-    width: 10em;
+    margin-top: 48px;
+    width: 160px;
 }
 h1,h2,h3,h4,h5,h6 {
-    margin: .5em 0;
+    margin: 8px 0;
 }
 h4,h5,h6 {
     color: gray;
-    margin-bottom: .8em;
+    margin-bottom: 8px;
 }
 header {
     display: flex;
@@ -44,7 +44,7 @@ header ul {
 header ul li {
     list-style: none;
     margin: 0;
-    padding: 3.5em 2em 2.5em;
+    padding: 56px 32px 40px;
     border-top: 2px solid transparent;
     transition: all 0.4s ease;
 }
@@ -74,7 +74,7 @@ main {
 .input-group input {
     border: 1px solid var(--gray);
     font-weight: 600;
-    padding: 0em 1.2em;
+    padding: 0em 19.2px;
 }
 .input-group button {
     background: var(--blue);
@@ -82,7 +82,7 @@ main {
     border: none;
     border-radius: 0px 12px 12px 0px;
     font-weight: 600;
-    padding: 0em 1em;
+    padding: 0em 16px;
     transition: background .2s;
 }
 .input-group button:hover {
@@ -180,6 +180,8 @@ main {
 .card-item .title {
     font-weight: 600;   
     font-size: 17px;
+    padding: 0;
+    margin: 0;
 }
 .card-item .subtitle {
     font-size: 12px;
@@ -276,7 +278,7 @@ footer .menu-group .menu-items ul li a {
     font-weight:500;
     color: black;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 992px) and (min-width: 768px)  {
     .card-group.two {
         display: flex;
         flex-direction: column;
@@ -304,7 +306,7 @@ footer .menu-group .menu-items ul li a {
         visibility: initial;
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     footer {
         background: var(--gray);
         padding: 34px;
@@ -386,7 +388,7 @@ footer .menu-group .menu-items ul li a {
     header .logo {
         display: block;
         margin: 0 auto;
-        width: 10em;
+        width: 160px;
         justify-content: center;
         align-items: center;
     }
